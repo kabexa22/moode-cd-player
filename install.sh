@@ -13,7 +13,7 @@ ok()   { echo -e "\e[32m[OK]\e[0m $*"; }
 warn() { echo -e "\e[33m[!]\e[0m $*"; }
 fail() { echo -e "\e[31m[ERROR]\e[0m $*"; exit 1; }
 
-[ "$(id -u)" -eq 0 ] || fail "Run with sudo: sudo ./install.sh"
+[ "$(id -u)" -eq 0 ] || fail "Run with sudo: sudo bash install.sh"
 [ -f /var/www/inc/mpd.php ] || fail "moOde audio player not detected."
 [ -f "$SRC_DIR/moode-cd-player.py" ] || fail "Files not found in $SRC_DIR"
 for d in /var/lib/mpd/music /var/lib/mpd/playlists /var/local/www/imagesw/playlist-covers /var/local/www/imagesw/thmcache; do

@@ -2,7 +2,7 @@
 # moode-cd-player uninstaller
 # License: GPL-3.0-or-later
 
-[ "$(id -u)" -eq 0 ] || { echo "Run with sudo: sudo ./uninstall.sh"; exit 1; }
+[ "$(id -u)" -eq 0 ] || { echo "Run with sudo: sudo bash uninstall.sh"; exit 1; }
 
 rm -f /etc/udev/rules.d/99-moode-cd-player.rules
 udevadm control --reload-rules

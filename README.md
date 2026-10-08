@@ -29,9 +29,9 @@ Audio CD playback for [moOde audio player](https://moodeaudio.org), with track t
 ### Instalación
 
 ```bash
-git clone https://github.com/OWNER/moode-cd-player.git
+git clone https://github.com/kabexa22/moode-cd-player.git
 cd moode-cd-player
-sudo ./install.sh
+sudo bash install.sh
 ```
 
 ### Uso
@@ -59,7 +59,7 @@ Sin la fuente oficial de 27 W, la Pi 5 limita los puertos USB a 600 mA. Una lect
 ### Desinstalación
 
 ```bash
-sudo ./uninstall.sh
+sudo bash uninstall.sh
 ```
 
 ### Diagnóstico
@@ -91,9 +91,9 @@ sudo tail -n 20 /var/log/moode-cd-player.log
 ### Install
 
 ```bash
-git clone https://github.com/OWNER/moode-cd-player.git
+git clone https://github.com/kabexa22/moode-cd-player.git
 cd moode-cd-player
-sudo ./install.sh
+sudo bash install.sh
 ```
 
 ### Usage
@@ -121,7 +121,7 @@ Without the official 27W power supply, the Pi 5 limits USB ports to 600 mA. A bu
 ### Uninstall
 
 ```bash
-sudo ./uninstall.sh
+sudo bash uninstall.sh
 ```
 
 ### Troubleshooting

@@ -17,7 +17,7 @@ import sys
 import tempfile
 
 VERSION = "1.0.0"
-REPO_URL = "https://github.com/OWNER/moode-cd-player"
+REPO_URL = "https://github.com/kabexa22/moode-cd-player"
 
 DEV = sys.argv[1] if len(sys.argv) > 1 else "/dev/sr0"
 PLAYLIST = "/var/lib/mpd/playlists/CD.m3u"
